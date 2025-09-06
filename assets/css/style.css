@@ -1,4 +1,4 @@
-/* OYO Theme Styles */
+/* Simple Red & White Theme */
 * {
   margin: 0;
   padding: 0;
@@ -6,161 +6,83 @@
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(135deg, #ff5757 0%, #d63031 100%);
+  font-family: Arial, sans-serif;
+  background-color: #dc3545;
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #333;
+  padding: 20px;
 }
 
 .container {
   background: white;
-  border-radius: 20px;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
-  padding: 3rem;
+  padding: 40px;
   text-align: center;
-  max-width: 500px;
-  width: 90%;
-}
-
-.logo {
-  font-size: 2.5rem;
-  font-weight: 700;
-  color: #ff5757;
-  margin-bottom: 1rem;
-  text-transform: uppercase;
-  letter-spacing: 2px;
+  max-width: 400px;
+  width: 100%;
 }
 
 h1 {
-  color: #2d3436;
-  font-size: 2rem;
-  margin-bottom: 1rem;
-  font-weight: 600;
+  color: #dc3545;
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-weight: bold;
 }
 
-.subtitle {
-  color: #636e72;
-  font-size: 1.1rem;
-  margin-bottom: 2rem;
-  line-height: 1.5;
+p {
+  color: #333;
+  font-size: 16px;
+  margin-bottom: 30px;
 }
 
-.offer-badge {
-  background: linear-gradient(45deg, #ff5757, #d63031);
+.offer {
+  background-color: #dc3545;
   color: white;
-  padding: 0.8rem 1.5rem;
-  border-radius: 50px;
-  font-weight: 600;
-  font-size: 1.2rem;
-  margin-bottom: 2rem;
-  display: inline-block;
-  box-shadow: 0 5px 15px rgba(255, 87, 87, 0.3);
+  padding: 15px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 form {
-  margin-top: 2rem;
-}
-
-.form-group {
-  margin-bottom: 1.5rem;
+  margin-top: 20px;
 }
 
 input[type="email"] {
   width: 100%;
-  padding: 1rem;
-  border: 2px solid #ddd;
-  border-radius: 10px;
-  font-size: 1rem;
-  transition: all 0.3s ease;
+  padding: 15px;
+  border: 2px solid #dc3545;
+  font-size: 16px;
+  margin-bottom: 20px;
   outline: none;
 }
 
 input[type="email"]:focus {
-  border-color: #ff5757;
-  box-shadow: 0 0 0 3px rgba(255, 87, 87, 0.1);
+  border-color: #a71e2a;
 }
 
-.cta-button {
+button {
   width: 100%;
-  background: linear-gradient(45deg, #ff5757, #d63031);
+  background-color: #dc3545;
   color: white;
   border: none;
-  padding: 1rem 2rem;
-  border-radius: 10px;
-  font-size: 1.1rem;
-  font-weight: 600;
+  padding: 15px;
+  font-size: 16px;
+  font-weight: bold;
   cursor: pointer;
-  transition: all 0.3s ease;
-  text-transform: uppercase;
-  letter-spacing: 1px;
 }
 
-.cta-button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 10px 25px rgba(255, 87, 87, 0.3);
+button:hover {
+  background-color: #a71e2a;
 }
 
-.features {
-  margin-top: 2rem;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 1rem;
-}
-
-.feature {
-  padding: 1rem;
-  background: #f8f9fa;
-  border-radius: 10px;
-  border-left: 4px solid #ff5757;
-}
-
-.feature-icon {
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.feature-text {
-  font-size: 0.9rem;
-  color: #636e72;
-  font-weight: 500;
-}
-
-.trust-indicators {
-  margin-top: 2rem;
-  padding-top: 1.5rem;
-  border-top: 1px solid #eee;
-}
-
-.trust-text {
-  color: #636e72;
-  font-size: 0.9rem;
-  margin-bottom: 0.5rem;
-}
-
-.rating {
-  color: #ffc107;
-  font-size: 1.2rem;
-  margin-bottom: 0.5rem;
-}
-
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   .container {
-    padding: 2rem;
-    margin: 1rem;
-  }
-  
-  .logo {
-    font-size: 2rem;
+    padding: 30px 20px;
   }
   
   h1 {
-    font-size: 1.5rem;
-  }
-  
-  .features {
-    grid-template-columns: 1fr;
+    font-size: 24px;
   }
 }
