@@ -1,0 +1,6 @@
+name = "landing-pages-worker"
+main = "worker/index.js"
+compatibility_date = "2025-09-06"
+
+[vars]
+GSHEET_WEBHOOK = "https://script.google.com/macros/s/AKfycbxpOZbJjIdarb29lAxOuogEf_wGajr0zZkrFjna_SYLBI3Bd0x_P-HUO5TJrsIFd-ZI/exec"
