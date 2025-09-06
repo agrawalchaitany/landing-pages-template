@@ -8,10 +8,14 @@ document.getElementById("lead-form").addEventListener("submit", async (e) => {
     body: JSON.stringify(data),
   });
 
+  const text = await res.text();
+  console.log("Worker response:", text);
+
   if (res.ok) {
     alert("Thanks! We'll be in touch.");
     e.target.reset();
   } else {
-    alert("Something went wrong.");
+    alert("Something went wrong: see console");
   }
+
 });
