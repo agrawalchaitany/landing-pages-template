@@ -3,4 +3,4 @@ main = "worker/index.js"
 compatibility_date = "2025-09-06"
 
 [vars]
-GSHEET_WEBHOOK = "https://script.google.com/macros/s/AKfycbxpOZbJjIdarb29lAxOuogEf_wGajr0zZkrFjna_SYLBI3Bd0x_P-HUO5TJrsIFd-ZI/exec"
+GSHEET_WEBHOOK = "https://script.google.com/macros/s/AKfycbyCjOKCdFD64Vrrh-dGeQvDFd1tsDHEvT-4tXiz9uv8ER9rGX2vVmwjk2Rgfxa5E_xc/exec"
